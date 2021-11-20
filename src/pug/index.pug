@@ -5,4 +5,8 @@ block page
 
     h1 Home Page !!
 
+    ul
+        each item in news
+            li= item.id + ':' + item.title
+
     include chunk/footer

@@ -3,7 +3,7 @@ export const serve = () => {
         open: false,
         port: 5000,
         server: {
-            baseDir: $.path.dist,
+            baseDir: $.path.root,
             index: 'index.html'
         }
     })
