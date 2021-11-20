@@ -1,0 +1,29 @@
+{
+  "name": "gulp-build",
+  "version": "1.0.0",
+  "description": "gulp сборка",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toarezd/gulp-build.git"
+  },
+  "keywords": [
+    "gulp",
+    "nodejs"
+  ],
+  "author": "Toarezd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toarezd/gulp-build/issues"
+  },
+  "homepage": "https://github.com/toarezd/gulp-build#readme",
+  "dependencies": {
+    "browser-sync": "^2.27.7",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-pug": "^5.0.0"
+  }
+}
