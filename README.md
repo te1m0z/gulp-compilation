@@ -1,1 +1,1 @@
-gulp сборка
+gulp setup

@@ -1,8 +1,8 @@
 {
   "type": "module",
   "name": "gulp-build",
-  "version": "1.0.0",
-  "description": "gulp сборка",
+  "version": "2.0.0",
+  "description": "gulp setup",
   "main": "gulpfile.js",
   "scripts": {
     "test": "gulp"
