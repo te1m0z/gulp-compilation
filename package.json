@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "gulp-build",
   "version": "1.0.0",
   "description": "gulp сборка",
@@ -24,6 +25,9 @@
     "browser-sync": "^2.27.7",
     "del": "^6.0.0",
     "gulp": "^4.0.2",
-    "gulp-pug": "^5.0.0"
+    "gulp-notify": "^4.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-pug": "^5.0.0",
+    "gulp-size": "^4.0.1"
   }
 }
