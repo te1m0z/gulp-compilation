@@ -16,3 +16,8 @@ export const scripts = () => {
         .pipe(uglify())
         .pipe($.gulp.dest($.path.js.dest, { sourcemaps: true }))
 }
+
+export const js_libs = () => {
+    return $.gulp.src($.path.js_libs.src)
+        .pipe($.gulp.dest($.path.js_libs.dest))
+}

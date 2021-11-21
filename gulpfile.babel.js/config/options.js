@@ -7,5 +7,8 @@ export const options = {
     },
     imagemin: {
         verbose: true
+    },
+    fonts: {
+        formats: ['woff2', 'woff', 'ttf', 'eot']
     }
 }
