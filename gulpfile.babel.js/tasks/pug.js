@@ -11,7 +11,7 @@ export const pug = () => {
                 sound: 'Beep'
             }))
         }))
-        .pipe(pugm($.pluginOptions.pug))
+        .pipe(pugm($.options.pug))
         .pipe($.gulp.dest($.path.pug.dest))
         .pipe($.server.stream())
 }

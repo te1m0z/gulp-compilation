@@ -9,12 +9,9 @@ import { path } from './config/path.js'
 
 // доступ к глобальным объектам сборки
 global.$ = {
-    gulp: gulp,
-    tasks: {
-        pug: tasks.pug,
-        sass: tasks.sass,
-    },
-    pluginOptions: options,
+    gulp,
+    tasks,
+    options,
     path,
     server: bs.create(),
 }

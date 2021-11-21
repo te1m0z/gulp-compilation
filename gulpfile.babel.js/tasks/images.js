@@ -13,6 +13,6 @@ export const images = () => {
             }))
         }))
         .pipe(newer($.path.img.dest))
-        .pipe(imagemin($.pluginOptions.imagemin))
+        .pipe(imagemin($.options.imagemin))
         .pipe($.gulp.dest($.path.img.dest))
 }
