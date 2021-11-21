@@ -1,7 +1,8 @@
 {
   "main": "gulpfile.js",
   "scripts": {
-    "test": "gulp"
+    "dev": "gulp dev",
+    "images": "gulp images"
   },
   "dependencies": {
     "@babel/core": "^7.16.0",
@@ -22,6 +23,8 @@
     "gulp-shorthand": "^1.1.0",
     "gulp-size": "^4.0.1",
     "gulp-uglify": "^3.0.2",
+    "gulp-webp": "^4.0.1",
+    "gulp-webp-html": "^1.0.2",
     "sass": "^1.43.4"
   },
   "browserslist": [
@@ -34,7 +37,6 @@
   },
   "devDependencies": {
     "@babel/preset-env": "^7.16.4",
-    "@babel/register": "^7.16.0",
-    "gulp-webp": "^4.0.1"
+    "@babel/register": "^7.16.0"
   }
 }
