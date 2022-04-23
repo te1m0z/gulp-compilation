@@ -6,4 +6,5 @@ export const html = () => {
     .pipe(fileInclude())
     .pipe(app.plugins.replace('@gulp_imgs/', 'img/'))
     .pipe(app.gulp.dest(app.path.build.html))
+    .pipe(app.plugins.browserSync.stream())
 }

@@ -1,0 +1,9 @@
+body {
+  background-color: rgb(206, 206, 206);
+  display: -ms-grid;
+  display: grid;
+}
+
+body p {
+  color: orange;
+}

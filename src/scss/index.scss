@@ -1,0 +1,10 @@
+@import './vars';
+
+body {
+  background-color: $black;
+  display: grid;
+
+  p {
+    color: orange;
+  }
+}
