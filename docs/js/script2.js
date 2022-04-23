@@ -1,2 +1,0 @@
-"use strict";console.log("this is script 2");
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNjcmlwdDIuanMiXSwibmFtZXMiOlsiY29uc29sZSIsImxvZyJdLCJtYXBwaW5ncyI6ImFBQUFBLFFBQVFDLElBQUkiLCJmaWxlIjoic2NyaXB0Mi5qcyIsInNvdXJjZXNDb250ZW50IjpbImNvbnNvbGUubG9nKCd0aGlzIGlzIHNjcmlwdCAyJykiXX0=
